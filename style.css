@@ -6,6 +6,10 @@ a {
 	color: #666;
 	text-decoration: none;
 }
+.pagination a {
+	color: #4972b5;
+	text-decoration:underline;
+}
 .navbar {
 	padding:10px 40px;
 	border-bottom:2px solid #333;
@@ -63,6 +67,8 @@ a {
 	position:absolute;
 	width:100%;
 	background-color: #444;
+	color: #fff;
+	padding:40px;
 }
 .products-container {
 	display:flex;
@@ -120,4 +126,21 @@ a {
 .pagination {
 	text-align:center;
 	clear:both;
+	margin:40px auto;
+}
+.footer h2 {
+	color: orange;
+	text-align: center;
+	margin-bottom:30px;
+}
+.footer img {
+	max-height:20px;
+	vertical-align:middle;
+}
+.footer-elements{
+	margin:20px  auto;
+	width:250px;
+}
+.footer a {
+	color: #fff;
 }
